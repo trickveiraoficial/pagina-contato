@@ -1,11 +1,11 @@
-# My Professional Portfolio
+# Página de Contato Profissional
 
-This is a micro-professional portfolio built with React.js, TypeScript, and styled using Tailwind CSS. The application showcases a personal photo, a brief professional summary, and contact information.
+Este é um micro-portfólio profissional construído com React.js, TypeScript e estilizado usando Tailwind CSS. A aplicação exibe uma foto pessoal, um breve resumo profissional e informações de contato.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
-my-portfolio-app
+pagina-contato
 ├── public
 │   └── index.html
 ├── src
@@ -24,95 +24,120 @@ my-portfolio-app
 └── README.md
 ```
 
-## Getting Started
+## Como Iniciar
 
-1. **Clone the repository:**
-   ```sh
-   git clone <repository-url>
-   cd my-portfolio-app
-   ```
+1. **Clone o repositório:**
 
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
+```sh
+git clone https://github.com/trickveiraoficial/pagina-contato.git
+cd pagina-contato
+```
 
-3. **Run the application in development mode:**
-   ```sh
-   npm start
-   ```
-   Open your browser and go to [http://localhost:3000](http://localhost:3000) to view your portfolio.
+2. **Instale as dependências:**
 
-## Technologies Used
+```sh
+npm install
+```
+
+3. **Execute a aplicação no modo de desenvolvimento:**
+
+```sh
+npm start
+```
+
+Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar seu portfólio.
+
+## Tecnologias Utilizadas
 
 - React.js
 - TypeScript
 - Tailwind CSS
 
-## Features
+## Funcionalidades
 
-- Responsive, single-page portfolio layout
-- Personal photo with stylized border and position adjustments
-- Professional summary section with clear typography and spacing
-- Interactive contact section with social media links
-- Custom textured background with a tiled pattern
+- Layout de portfólio responsivo e de página única
+- Foto pessoal com borda estilizada e ajustes de posição
+- Seção de resumo profissional com tipografia clara e espaçamento adequado
+- Seção de contato interativa com links para redes sociais
+- Plano de fundo personalizado com padrão texturizado em mosaico
 
-## Deployment
+## Implantação
 
-### Build for Production
+### Construção para Produção
 
-This project uses `react-scripts`. To produce an optimized production build, run:
+Este projeto utiliza `react-scripts`. Para gerar uma versão otimizada para produção, execute:
 
 ```sh
 npm run build
 ```
 
-The build output will be in the `build` folder.
+Os arquivos compilados estarão na pasta `build`.
 
-### Deployment Options
+### Opções de Implantação
 
-You can deploy the contents of the `build` folder to any static hosting service. Here are a few options:
+Você pode implantar o conteúdo da pasta `build` em qualquer serviço de hospedagem estática. Algumas opções incluem:
 
-#### Deploy on GitHub Pages
+#### Implantação no GitHub Pages
 
-1. Install the `gh-pages` package:
-   ```sh
-   npm install --save gh-pages
-   ```
-2. Add the following properties to your `package.json`:
-   ```json
-   {
-     "homepage": "http://<username>.github.io/<repository-name>",
-     "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d build"
-     }
-   }
-   ```
-3. Deploy the app by running:
-   ```sh
-   npm run deploy
-   ```
+1. Instale o pacote `gh-pages`:
 
-#### Deploy on Netlify
+```sh
+npm install --save gh-pages
+```
 
-1. Push your repository to GitHub.
-2. Log into your Netlify account and follow the instructions for creating a new site from GitHub.
-3. Set the build command to `npm run build` and the publish directory to `build`.
-4. Deploy your site.
+2. Adicione as seguintes propriedades ao `package.json`:
 
-#### Deploy on Vercel
+```json
+{
+  "homepage": "http://<usuario>.github.io/<nome-do-repositorio>",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+```
 
-1. Install the Vercel CLI:
-   ```sh
-   npm i -g vercel
-   ```
-2. Run the deploy command in your project folder:
-   ```sh
-   vercel
-   ```
-3. Follow the CLI prompts to deploy your site.
+3. Implante a aplicação executando:
 
-## License
+```sh
+npm run deploy
+```
 
-This project is licensed under the MIT License.
+#### Implantação no Netlify
+
+1. Envie seu repositório para o GitHub.
+2. Acesse sua conta no Netlify e siga as instruções para criar um novo site a partir do GitHub.
+3. Defina o comando de build como `npm run build` e o diretório de publicação como `build`.
+4. Implante seu site.
+
+#### Implantação no Vercel
+
+1. Instale o CLI do Vercel:
+
+```sh
+npm i -g vercel
+```
+
+2. Execute o comando de implantação na pasta do projeto:
+
+```sh
+vercel
+```
+
+3. Siga as instruções do CLI para implantar seu site.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+## Exemplo de Exibição da Página
+
+![Página](https://i.ibb.co/Rk4J7Lvn/image.png)
+
+
+
+
+
+
+
+
